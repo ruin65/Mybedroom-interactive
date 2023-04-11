@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+background-color: rgba(247,241,241,255);
+}
+
+@keyframes shake {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        25% {
+            transform: rotate(20deg);
+        }
+
+        50% {
+            transform: rotate(0deg);
+        }
+
+        75% {
+            transform: rotate(-20deg);
+        }
+
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+
+    img:hover {
+        animation: shake 0.5s;
+
+    }
+
+    img {
+        width: 55vh;
+        height: 28vh;
+        position: fixed;
+        top: 35vh;
+        left: 36.5vw;
+    }
+
+</style>
+
+</head>
+<body>
+    <div class="ck"></div>
+    <img src="./clock.png" alt="Your Image">
+</body>
+</html>
